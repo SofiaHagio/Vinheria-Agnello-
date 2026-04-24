@@ -135,12 +135,12 @@ vinheria-agnello/
 
 ## Equipe
 
-| Integrante | RM |
-|------------|----|
-| Guilherme Tome Nogueira| 570144 |
-| Lucas de Andrade Astorini | 569119 |
-| Sabrina Lopes da Silva | 571870 |
-| Sofia Satomi Hagio | 569120 |
+| Integrante | 
+|------------|
+| Guilherme Tome Nogueira| 
+| Lucas de Andrade Astorini | 
+| Sabrina Lopes da Silva |
+| Sofia Satomi Hagio | 
 
 ---
 
