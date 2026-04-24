@@ -135,12 +135,10 @@ vinheria-agnello/
 
 ## Equipe
 
-| Integrante | 
-|------------|
-| Guilherme Tome Nogueira| 
-| Lucas de Andrade Astorini | 
-| Sabrina Lopes da Silva |
-| Sofia Satomi Hagio | 
+- Guilherme Tome Nogueira
+- Lucas de Andrade Astorini 
+- Sabrina Lopes da Silva 
+- Sofia Satomi Hagio 
 
 ---
 
