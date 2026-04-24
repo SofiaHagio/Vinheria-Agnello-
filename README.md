@@ -58,7 +58,7 @@ O vinho é sensível à luz: a exposição excessiva degrada seus compostos org�
 
 ---
 
-## Esquema de Ligação
+## 🔗 Esquema de Ligação
 
 ```
                      Arduino Uno
