@@ -144,4 +144,4 @@ vinheria-agnello/
 
 ## 📄 Licença
 
-Projeto acadêmico — uso educacional
+Este projeto é livre para uso educacional.
