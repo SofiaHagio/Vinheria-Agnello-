@@ -126,9 +126,9 @@ Use o Monitor Serial para verificar os valores brutos do LDR no seu ambiente e c
 
 ```
 vinheria-agnello/
+├── README.md              ← Este arquivo
 ├── vinheria_agnello.ino   ← Código-fonte principal
-├── circuito.png           ← Imagem do circuito (Tinkercad)
-└── README.md              ← Este arquivo
+└── circuito.png           ← Imagem do circuito (Tinkercad)
 ```
 
 ---
