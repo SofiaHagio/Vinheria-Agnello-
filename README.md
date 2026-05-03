@@ -118,7 +118,7 @@ int limiteAlerta = 960;  // Entre limiteOK e limiteAlerta → alerta (LED amarel
                          // Acima de limiteAlerta → crítico (LED vermelho)
 ```
 
-Use o Monitor Serial para verificar os valores brutos do LDR no seu ambiente e calibre conforme necessário.
+> Use o Monitor Serial para verificar os valores brutos do LDR no seu ambiente e calibre conforme necessário.
 
 ---
 
