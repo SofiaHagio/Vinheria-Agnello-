@@ -139,7 +139,3 @@ int limiteAlerta = 960;  // Entre limiteOK e limiteAlerta → alerta (LED amarel
 - Lucas de Andrade Astorini 
 - Sabrina Lopes da Silva 
 - Sofia Satomi Hagio 
-
-## 📄 Licença
-
-Este projeto é livre para uso educacional.
