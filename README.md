@@ -122,7 +122,7 @@ int limiteAlerta = 960;  // Entre limiteOK e limiteAlerta → alerta (LED amarel
 
 ---
 
-## 📂 Estrutura do Repositório
+## 📂 Estrutura do repositório
 
 ```
 📁 Vinheria-Agnello
