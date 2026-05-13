@@ -125,10 +125,10 @@ int limiteAlerta = 960;  // Entre limiteOK e limiteAlerta → alerta (LED amarel
 ## 📂 Estrutura do Repositório
 
 ```
-Vinheria-Agnello
-├── README.md              ← Este arquivo
-├── vinheria_agnello.ino   ← Código-fonte principal
-└── circuito.png           ← Imagem do circuito (Tinkercad)
+📁 Vinheria-Agnello
+├── 📄 README.md              ← Este arquivo
+├── 📄 vinheria_agnello.ino   ← Código-fonte principal
+└── 📄 circuito.png           ← Imagem do circuito (Tinkercad)
 ```
 
 ---
