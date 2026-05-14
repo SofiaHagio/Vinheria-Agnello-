@@ -5,7 +5,7 @@
 
 ---
 
-## 📌 Descrição do Projeto
+## 📌 Descrição do projeto
 
 O vinho é sensível a três fatores ambientais principais: **luminosidade**, **temperatura** e **umidade**. A exposição excessiva à luz degrada compostos orgânicos; variações de temperatura causam aromas indesejados; e umidade fora da faixa ideal compromete vedantes e rótulos.
 
@@ -15,7 +15,7 @@ Este sistema monitora continuamente esses três fatores e responde de forma auto
 
 ---
 
-## Faixas Ideais de Armazenamento
+## Faixas ideais de armazenamento
 
 | Fator | Faixa Ideal | Fonte |
 |---|---|---|
@@ -25,7 +25,7 @@ Este sistema monitora continuamente esses três fatores e responde de forma auto
 
 ---
 
-## 🔴 Lógica de Alertas
+## 🔴 Lógica de alertas
 
 ### Luminosidade
 
@@ -53,7 +53,7 @@ Este sistema monitora continuamente esses três fatores e responde de forma auto
 
 ---
 
-## Circuito Antigo (Luminosidade)
+## Primeiro circuito (luminosidade)
 
 ![Circuito do projeto no Tinkercad](./circuito.png)
 
@@ -65,7 +65,7 @@ Este sistema monitora continuamente esses três fatores e responde de forma auto
 
 ---
 
-## Circuito Atual (Ambiental)
+## Segundo circuito (ambiental)
 
 ![Circuito do projeto](circuito.jpg)
 
@@ -77,7 +77,7 @@ Este sistema monitora continuamente esses três fatores e responde de forma auto
 
 ---
 
-## 🧰 Componentes Utilizados
+## 🛠️ Componentes utilizados
 
 ### Hardware
 
@@ -104,7 +104,7 @@ Este sistema monitora continuamente esses três fatores e responde de forma auto
 
 ---
 
-## Como Reproduzir
+## ▶️ Como executar
 
 ### Opção A — Simulação Online (Wokwi)
 
@@ -127,7 +127,7 @@ Este sistema monitora continuamente esses três fatores e responde de forma auto
 
 ---
 
-## Ajuste dos Limiares
+## ⚙️ Ajuste dos limiares
 
 No arquivo `.ino`, as variáveis abaixo controlam os limites de cada estado. Ajuste conforme o ambiente real:
 
@@ -150,7 +150,7 @@ Use o Monitor Serial para verificar os valores brutos dos sensores no seu ambien
 
 ---
 
-## 🗂️ Estrutura do Repositório
+## 🗂️ Estrutura do repositório
 
 ```
 checkpoint-1-Vinheria-Agnello/
