@@ -138,7 +138,7 @@ Este sistema monitora continuamente esses três fatores e responde de forma auto
  
 1. Acesse [wokwi.com](https://wokwi.com) e faça login ou crie uma conta gratuita.
 2. Clique em "New Project" e selecione "Arduino Uno".
-3. No painel de componentes (botão "+" à esquerda), adicione: LDR, resistor 10kΩ, LED verde, LED amarelo, LED vermelho, resistores 220Ω e Buzzer.
+3. No painel de componentes (botão "+" à esquerda), adicione: LDR, resistor 10kΩ, LEDs (verde, amarelo e vermelho), resistores 220Ω e Buzzer.
 4. Monte as conexões conforme o esquema em `circuito.png`.
 5. No editor de código, apague o conteúdo padrão e cole o conteúdo do arquivo `vinheria_agnello.ino`.
 6. Clique em Play.
@@ -148,7 +148,7 @@ Este sistema monitora continuamente esses três fatores e responde de forma auto
  
 1. Acesse [wokwi.com](https://wokwi.com) e faça login ou crie uma conta gratuita.
 2. Clique em "New Project" e selecione "Arduino Uno".
-3. No painel de componentes (botão "+" à esquerda), adicione: LDR, resistor 10kΩ, DHT22 (substituto do DHT11), LCD 16x2 I2C, LED verde, LED amarelo, LED vermelho, resistores 220Ω e Buzzer.
+3. No painel de componentes (botão "+" à esquerda), adicione: LDR, resistor 10kΩ, DHT22 (substituto do DHT11), LCD 16x2 I2C, LEDs (verde, amarelo e vermelho), resistores 220Ω e Buzzer.
 4. Monte as conexões conforme o esquema em `circuito.jpg`.
 5. No editor de código, apague o conteúdo padrão e cole o conteúdo do arquivo `vinheria_agnello2.ino`.
 6. Clique em Play.
