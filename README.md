@@ -106,25 +106,45 @@ Este sistema monitora continuamente esses três fatores e responde de forma auto
 
 ## ▶️ Como executar
 
-### Opção A — Simulação Online (Wokwi)
-
-1. Acesse [wokwi.com](https://wokwi.com) e crie um novo projeto com **Arduino Uno**.
-2. Adicione os componentes: LDR, DHT22, LCD 16x2, LEDs (verde, amarelo, vermelho) e Buzzer.
-3. Monte conforme o esquema acima.
-4. Cole o conteúdo do arquivo `vinheria_agnello.ino` no editor de código.
-5. Clique em **Play** e varie os valores dos sensores para testar os diferentes estados.
-
-> O Tinkercad não possui o sensor DHT11. Caso utilize Tinkercad, siga o modelo de simulação disponibilizado pelo professor.
-
-### Opção B — Hardware Físico
-
-1. Monte o circuito na protoboard conforme o esquema acima.
-2. Instale as bibliotecas **DHT sensor library** e **LiquidCrystal_I2C** no Arduino IDE via `Sketch → Include Library → Manage Libraries`.
-3. Abra o arquivo `vinheria_agnello.ino`.
-4. Selecione a porta correta em **Ferramentas → Porta**.
-5. Clique em **Upload** (Ctrl+U).
-6. Abra o **Monitor Serial** (9600 baud) para acompanhar os valores lidos em tempo real.
-
+### Tinkercad
+ 
+**Primeiro circuito (luminosidade)**
+ 
+1. Acesse a simulação: [tinkercad.com/things/iGE2alnjSsO-cp-vinheria-agnello](https://www.tinkercad.com/things/iGE2alnjSsO-cp-vinheria-agnello)
+2. Faça login e clique em "Copiar e Tinker".
+3. Clique em "Iniciar Simulação".
+4. Clique no LDR e arraste o controle de luminosidade para testar os estados.
+**Segundo circuito (ambiental)**
+ 
+1. Acesse a simulação: [tinkercad.com/things/iGE2alnjSsO-cp-vinheria-agnello](https://www.tinkercad.com/things/iGE2alnjSsO-cp-vinheria-agnello)
+2. Faça login e clique em "Copiar e Tinker".
+3. No painel de código, substitua o conteúdo pelo arquivo `vinheria_agnello2.ino`.
+4. Clique em "Iniciar Simulação".
+5. Interaja com o LDR e com o sensor de temperatura/umidade para testar os diferentes estados.
+---
+ 
+### Wokwi
+ 
+**Primeiro circuito (luminosidade)**
+ 
+1. Acesse [wokwi.com](https://wokwi.com) e crie um novo projeto com Arduino Uno.
+2. Adicione os componentes: LDR, LEDs (verde, amarelo, vermelho) e Buzzer, conforme o esquema em `circuito.png`.
+3. Cole o conteúdo de `vinheria_agnello.ino` no editor de código.
+4. Clique em Play e ajuste o LDR para testar os estados.
+**Segundo circuito (ambiental)**
+ 
+1. Acesse a simulação: [wokwi.com/projects/463841959926858753](https://wokwi.com/projects/463841959926858753)
+2. Clique em Play e interaja com o LDR e com o sensor DHT22 para testar luminosidade, temperatura e umidade.
+---
+ 
+### Hardware físico
+ 
+1. Monte o circuito na protoboard conforme o esquema em `circuito.jpg`.
+2. Instale as bibliotecas **DHT sensor library** e **LiquidCrystal_I2C** no Arduino IDE via `Sketch > Include Library > Manage Libraries`.
+3. Abra o arquivo `vinheria_agnello.ino` (primeiro circuito) ou `vinheria_agnello2.ino` (segundo circuito).
+4. Selecione a porta correta em `Ferramentas > Porta`.
+5. Clique em Upload (Ctrl+U).
+6. Abra o Monitor Serial (9600 baud) para acompanhar os valores em tempo real.
 ---
 
 ## ⚙️ Ajuste dos limiares
