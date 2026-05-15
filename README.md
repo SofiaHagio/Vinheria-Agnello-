@@ -110,41 +110,61 @@ Este sistema monitora continuamente esses três fatores e responde de forma auto
  
 **Primeiro circuito (luminosidade)**
  
-1. Acesse a simulação: [tinkercad.com/things/iGE2alnjSsO-cp-vinheria-agnello](https://www.tinkercad.com/things/iGE2alnjSsO-cp-vinheria-agnello)
-2. Faça login e clique em "Copiar e Tinker".
-3. Clique em "Iniciar Simulação".
-4. Clique no LDR e arraste o controle de luminosidade para testar os estados.
+1. Acesse [tinkercad.com](https://www.tinkercad.com) e faça login ou crie uma conta gratuita.
+2. Clique em "Criar" e selecione "Circuito".
+3. Adicione os componentes: Arduino Uno, LDR, resistor 10kΩ, LED verde, LED amarelo, LED vermelho, resistores 220Ω e Buzzer.
+4. Monte as conexões conforme o esquema em `circuito.png`.
+5. Clique em "Código" e selecione o modo "Texto".
+6. Apague o código padrão e cole o conteúdo do arquivo `vinheria_agnello.ino`.
+7. Clique em "Iniciar Simulação".
+8. Clique no LDR e arraste o controle de luminosidade para testar os diferentes estados.
+   
 **Segundo circuito (ambiental)**
  
-1. Acesse a simulação: [tinkercad.com/things/iGE2alnjSsO-cp-vinheria-agnello](https://www.tinkercad.com/things/iGE2alnjSsO-cp-vinheria-agnello)
-2. Faça login e clique em "Copiar e Tinker".
-3. No painel de código, substitua o conteúdo pelo arquivo `vinheria_agnello2.ino`.
-4. Clique em "Iniciar Simulação".
-5. Interaja com o LDR e com o sensor de temperatura/umidade para testar os diferentes estados.
+1. Acesse [tinkercad.com](https://www.tinkercad.com) e faça login ou crie uma conta gratuita.
+2. Clique em "Criar" e selecione "Circuito".
+3. Adicione os componentes: Arduino Uno, LDR, resistor 10kΩ, sensor TMP36 (substituto do DHT11 no Tinkercad), LCD 16x2, LED verde, LED amarelo, LED vermelho, resistores 220Ω e Buzzer.
+4. Monte as conexões conforme o esquema em `circuito.jpg`.
+5. Clique em "Código" e selecione o modo "Texto".
+6. Apague o código padrão e cole o conteúdo do arquivo `vinheria_agnello2.ino`.
+7. Clique em "Iniciar Simulação".
+8. Interaja com o LDR e com o sensor de temperatura para testar os diferentes estados.
+
 ---
  
 ### Opção B - Wokwi
  
 **Primeiro circuito (luminosidade)**
  
-1. Acesse [wokwi.com](https://wokwi.com) e crie um novo projeto com Arduino Uno.
-2. Adicione os componentes: LDR, LEDs (verde, amarelo, vermelho) e Buzzer, conforme o esquema em `circuito.png`.
-3. Cole o conteúdo de `vinheria_agnello.ino` no editor de código.
-4. Clique em Play e ajuste o LDR para testar os estados.
+1. Acesse [wokwi.com](https://wokwi.com) e faça login ou crie uma conta gratuita.
+2. Clique em "New Project" e selecione "Arduino Uno".
+3. No painel de componentes (botão "+" à esquerda), adicione: LDR, resistor 10kΩ, LED verde, LED amarelo, LED vermelho, resistores 220Ω e Buzzer.
+4. Monte as conexões conforme o esquema em `circuito.png`.
+5. No editor de código, apague o conteúdo padrão e cole o conteúdo do arquivo `vinheria_agnello.ino`.
+6. Clique em Play.
+7. Clique no LDR e ajuste o controle de luminosidade para testar os diferentes estados.
+   
 **Segundo circuito (ambiental)**
  
-1. Acesse a simulação: [wokwi.com/projects/463841959926858753](https://wokwi.com/projects/463841959926858753)
-2. Clique em Play e interaja com o LDR e com o sensor DHT22 para testar luminosidade, temperatura e umidade.
+1. Acesse [wokwi.com](https://wokwi.com) e faça login ou crie uma conta gratuita.
+2. Clique em "New Project" e selecione "Arduino Uno".
+3. No painel de componentes (botão "+" à esquerda), adicione: LDR, resistor 10kΩ, DHT22 (substituto do DHT11), LCD 16x2 I2C, LED verde, LED amarelo, LED vermelho, resistores 220Ω e Buzzer.
+4. Monte as conexões conforme o esquema em `circuito.jpg`.
+5. No editor de código, apague o conteúdo padrão e cole o conteúdo do arquivo `vinheria_agnello2.ino`.
+6. Clique em Play.
+7. Clique no DHT22 e ajuste temperatura e umidade; clique no LDR para ajustar a luminosidade.
+
 ---
+
+### Hardware físico
  
-### Opção C - Hardware físico
- 
-1. Monte o circuito na protoboard conforme o esquema em `circuito.jpg`.
+1. Monte o circuito na protoboard conforme o esquema em `circuito.png` (primeiro circuito) ou `circuito.jpg` (segundo circuito).
 2. Instale as bibliotecas **DHT sensor library** e **LiquidCrystal_I2C** no Arduino IDE via `Sketch > Include Library > Manage Libraries`.
 3. Abra o arquivo `vinheria_agnello.ino` (primeiro circuito) ou `vinheria_agnello2.ino` (segundo circuito).
 4. Selecione a porta correta em `Ferramentas > Porta`.
 5. Clique em Upload (Ctrl+U).
 6. Abra o Monitor Serial (9600 baud) para acompanhar os valores em tempo real.
+
 ---
 
 ## ⚙️ Ajuste dos limiares
