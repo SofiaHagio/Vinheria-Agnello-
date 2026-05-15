@@ -108,7 +108,7 @@ Este sistema monitora continuamente esses três fatores e responde de forma auto
 
 ### Opção A - Tinkercad
  
-**Primeiro circuito (luminosidade)**
+> **Primeiro circuito (luminosidade)**
  
 1. Acesse [tinkercad.com](https://www.tinkercad.com) e faça login ou crie uma conta gratuita.
 2. Clique em "Criar" e selecione "Circuito".
@@ -119,7 +119,7 @@ Este sistema monitora continuamente esses três fatores e responde de forma auto
 7. Clique em "Iniciar Simulação".
 8. Clique no LDR e arraste o controle de luminosidade para testar os diferentes estados.
    
-**Segundo circuito (ambiental)**
+> **Segundo circuito (ambiental)**
  
 1. Acesse [tinkercad.com](https://www.tinkercad.com) e faça login ou crie uma conta gratuita.
 2. Clique em "Criar" e selecione "Circuito".
@@ -133,7 +133,7 @@ Este sistema monitora continuamente esses três fatores e responde de forma auto
  
 ### Opção B - Wokwi
  
-**Primeiro circuito (luminosidade)**
+> **Primeiro circuito (luminosidade)**
  
 1. Acesse [wokwi.com](https://wokwi.com) e faça login ou crie uma conta gratuita.
 2. Clique em "New Project" e selecione "Arduino Uno".
@@ -143,7 +143,7 @@ Este sistema monitora continuamente esses três fatores e responde de forma auto
 6. Clique em Play.
 7. Clique no LDR e ajuste o controle de luminosidade para testar os diferentes estados.
    
-**Segundo circuito (ambiental)**
+> **Segundo circuito (ambiental)**
  
 1. Acesse [wokwi.com](https://wokwi.com) e faça login ou crie uma conta gratuita.
 2. Clique em "New Project" e selecione "Arduino Uno".
