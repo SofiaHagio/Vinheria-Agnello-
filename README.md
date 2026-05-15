@@ -106,7 +106,7 @@ Este sistema monitora continuamente esses três fatores e responde de forma auto
 
 ## ▶️ Como executar
 
-### Tinkercad
+### Opção A - Tinkercad
  
 **Primeiro circuito (luminosidade)**
  
@@ -123,7 +123,7 @@ Este sistema monitora continuamente esses três fatores e responde de forma auto
 5. Interaja com o LDR e com o sensor de temperatura/umidade para testar os diferentes estados.
 ---
  
-### Wokwi
+### Opção B - Wokwi
  
 **Primeiro circuito (luminosidade)**
  
@@ -137,7 +137,7 @@ Este sistema monitora continuamente esses três fatores e responde de forma auto
 2. Clique em Play e interaja com o LDR e com o sensor DHT22 para testar luminosidade, temperatura e umidade.
 ---
  
-### Hardware físico
+### Opção C - Hardware físico
  
 1. Monte o circuito na protoboard conforme o esquema em `circuito.jpg`.
 2. Instale as bibliotecas **DHT sensor library** e **LiquidCrystal_I2C** no Arduino IDE via `Sketch > Include Library > Manage Libraries`.
