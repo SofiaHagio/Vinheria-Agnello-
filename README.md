@@ -69,7 +69,7 @@ Este sistema monitora continuamente esses três fatores e responde de forma auto
 
 ![Circuito do projeto](circuito.jpg)
 
-> Simulação montada no **Wokwi** (sensor DHT22 como substituto do DHT11). O LDR lê a luminosidade via porta `A0`; o DHT11 lê temperatura e umidade via pino digital; o LCD 16x2 exibe os valores via comunicação I2C ou paralela.
+> Simulação montada no **Wokwi** (sensor DHT22 como substituto do DHT11). O LDR lê a luminosidade via porta `A0`; o DHT22 lê temperatura e umidade via pino digital; o LCD 16x2 exibe os valores via comunicação I2C ou paralela.
 
 🔗 [Acessar simulação no Wokwi](https://wokwi.com/projects/463841959926858753)
 
