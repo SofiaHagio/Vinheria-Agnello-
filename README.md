@@ -130,6 +130,7 @@ Este sistema monitora continuamente esses três fatores e responde de forma auto
 7. Clique em "Iniciar Simulação".
 8. Interaja com o LDR e com o sensor de temperatura para testar os diferentes estados.
 
+ --
  
 ### Opção B - Wokwi
  
@@ -153,6 +154,7 @@ Este sistema monitora continuamente esses três fatores e responde de forma auto
 6. Clique em Play.
 7. Clique no DHT22 e ajuste temperatura e umidade; clique no LDR para ajustar a luminosidade.
 
+--
 
 ### Opção C - Hardware físico
  
