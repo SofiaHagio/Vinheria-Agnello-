@@ -130,7 +130,6 @@ Este sistema monitora continuamente esses três fatores e responde de forma auto
 7. Clique em "Iniciar Simulação".
 8. Interaja com o LDR e com o sensor de temperatura para testar os diferentes estados.
 
----
  
 ### Opção B - Wokwi
  
@@ -154,9 +153,8 @@ Este sistema monitora continuamente esses três fatores e responde de forma auto
 6. Clique em Play.
 7. Clique no DHT22 e ajuste temperatura e umidade; clique no LDR para ajustar a luminosidade.
 
----
 
-### Hardware físico
+### Opção C - Hardware físico
  
 1. Monte o circuito na protoboard conforme o esquema em `circuito.png` (primeiro circuito) ou `circuito.jpg` (segundo circuito).
 2. Instale as bibliotecas **DHT sensor library** e **LiquidCrystal_I2C** no Arduino IDE via `Sketch > Include Library > Manage Libraries`.
