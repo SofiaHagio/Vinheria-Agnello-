@@ -33,7 +33,7 @@ Este sistema monitora continuamente esses três fatores e responde de forma auto
 |---|---|---|---|---|
 | ✅ Adequado | Ambiente escuro | 🟢 Verde | Desligado | — |
 | ⚠️ Alerta | Meia luz | 🟡 Amarelo | Desligado | `Ambiente a meia luz` |
-| 🚨 Crítico | Muito claro | 🔴 Vermelho | Contínuo | `Ambiente muito CLARO` |
+| 🚨 Crítico | Muito claro | 🔴 Vermelho | Contínuo | `Ambiente muito claro` |
 
 ### Temperatura
 
